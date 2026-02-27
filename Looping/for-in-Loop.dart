@@ -1,6 +1,7 @@
+// Digunakan untuk mengiterasi elemen dalam List atau Set
 void main() {
 
-  // List
+  // LIST
   List<String> buah = ["Apel", "Mangga", "Jeruk"];
   for (String item in buah) {
     print(item);
@@ -8,7 +9,7 @@ void main() {
 
   print("-----");
 
-  // Set
+  // SET
   Set<int> angkaUnik = {10, 20, 30};
   for (var angka in angkaUnik) {
     print("Angka: $angka");
@@ -16,7 +17,7 @@ void main() {
 
   print("-----");
 
-  // Map
+  // MAP
   Map<String, int> hargaBuah = {
     "Apel": 10000,
     "Mangga": 15000,
@@ -26,4 +27,5 @@ void main() {
   for (var key in hargaBuah.keys) {
     print("Buah: $key, Harga: Rp${hargaBuah[key]}");
   }
+
 }
